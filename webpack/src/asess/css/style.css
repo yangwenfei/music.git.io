@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'webFontName';
+    src: url('../fonts/font-woff.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/SingleMalta.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/fontwoff2.woff2') format('woff2'); /* Legacy iOS */
+  font-weight: 600;
+  font-style: italic;
+}
+.hello {
+  font-family: 'webFontName';
+  color: red;
+  display:flex
+}
