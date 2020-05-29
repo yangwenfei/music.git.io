@@ -22,7 +22,9 @@ module.exports = {
   devtool: 'inline-source-map',
   devServer: {
     contentBase: './dist',
-    hot: true
+    hot: true,
+    inline: true, // 内联模式 通过内置脚本监听热重载
+    open: true, // 打开浏览器
   },
   module: {
     //rules数组用来配置相关的loader
