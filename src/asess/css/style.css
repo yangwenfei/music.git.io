@@ -1,0 +1,16 @@
+@font-face {
+  font-family: 'webFontName';
+    src: url('../fonts/fontwoff2.woff2') format('woff2'); 
+  font-weight: 600;
+  font-style: italic;
+}
+.hello {
+  font-family: 'webFontName';
+  color: green;
+  display:flex;
+  
+}
+.box{
+  height: 50px;
+  background:url(../images/switcherlogo-dhc.png) repeat
+}
